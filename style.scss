@@ -1,8 +1,6 @@
 @use 'variables' as var;
 @use 'mixins' as mix;
 
-
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -40,7 +38,6 @@ body {
         }
     
     }
-
     
 }
 hr {
@@ -79,9 +76,7 @@ a:hover {
     width: auto;
     height: auto;
     display: block;
-    margin-top: 120px;
-    
-    
+    margin-top: 120px;    
 }
 .arrow {
     display: flex;
@@ -169,8 +164,7 @@ a:hover {
         border-radius: 5px;
         padding: 10px 25px;
         margin: 5px;
-        font-size: 60px;
-        
+        font-size: 60px; 
     }
  }
 
@@ -303,9 +297,7 @@ a:hover {
     will-change: transform;
     transform-origin: center;
     transform-box: fill-box;
-    transform-origin: bottom;
-   
-    
+    transform-origin: bottom;  
 }
 
 @keyframes shadow {
